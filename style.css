@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+/* body styling start*/
+body {
+    background-color: white;
+    color: purple;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* header styling start*/
+header {
+    display: flex;
+    justify-content: space-between;
+}
+header h4{
+    display: inline;
+    padding: 0 0 0 20px;
+}
+.timer {
+    padding: 15px;
+    font-size: 20px;
+    color: rgb(198, 158, 236);
+}
+/* header styling end*/
+
+/* main container content*/
+.container {
+    padding: 30px;
+    flex-direction: column;
+    margin: auto;
+    border: 3px solid;
+}
+/*Front cover with rules start*/
+h1 {
+    color: rgb(165, 63, 208);
+    font-size: 36px;
+    align-items: center;
+    text-align: center;
+}
+
+p {
+    color: blueviolet;
+    margin: 1px;
+    padding-bottom: 15px;
+}
+
+.startend {
+    width: 30%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/*Front cover with rules end*/
+
+/* question quiz start*/
+.start {
+    align-items: center;
+    text-align: center;
+}
+
+.start p  .start h1{
+    text-align: center;
+}
+
+.questions {
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 40px;
+    width: 600px;
+}
+
+.end h1 .end p {
+    text-align: left
+}
+
+/* question quiz end*/
+.visible {
+    display: flex;
+}
+
+.hidden {
+    display: none;
+}
+
+#question {
+    color: blueviolet;
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#high-score button{
+    text-align: left;
+}
+
+/* button styling start*/
+.btn {
+    background-color: rgb(165, 63, 208);
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 3px rgb(198, 158, 236);
+}
+
+.btn:hover {
+    cursor: pointer;
+    background: purple;
+    border-radius: 10px;
+}
+
+.btn-options {
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    grid-gap: 10px;
+    font-size: 5px;
+    padding: auto;
+    width: 900px;
+}
+
+.answerbtn {
+    text-align: left;
+    font-size: 20px;
+    padding: 20px;
+    margin-right: 400px;
+}
+/* button styling start*/
+
+.banner h2 {
+    border-top: 10px solid purple;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    padding-top: 10px;
+    color: rgb(165, 63, 208);
+}
+
+ol {
+    list-style-type: number;
+}
+
+li:nth-child(odd) {
+    background-color: rgb(198, 158, 236);
+}
+
+li {
+    font-size: 40px;
+}
+/* body styling end*/
