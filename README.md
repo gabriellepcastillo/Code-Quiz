@@ -8,5 +8,5 @@ In this challenge I created a timed Coding Quiz that will portray what I have le
 
 # Submition
 * URL : https://gabriellepcastillo.github.io/Code-Quiz/
-* Git Repo URL : https://github.com/gabriellepcastillo/Code-Quiz.git 
+* Git Repo URL : https://github.com/gabriellepcastillo/Code-Quiz.git
 <img width="1083" alt="Screen Shot 2022-08-26 at 11 55 10 AM" src="https://user-images.githubusercontent.com/109112189/186945659-6aae0437-b87b-4382-a223-9bc9eef0bc45.png">
