@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Code Quiz</title>
+</head>
+
+<body>
+
+    <header>
+        <h4 id="high-scores"><button class="score btn"> View High Score</button></h4>
+        <h4 class="timer">Time:<span id="timer"></span> </h4>
+    </header>
+
+    <div id="high-score-container" class="hidden">
+        <div class="high-scores container">
+            <h1 class="high-score">High Scores</h1>
+            <ol id="high-score-list" class="score-list"></ol>
+        <div>
+            <button class="btn" id="go-back"> Go Back </button>
+            <button class="btn" id="clear-score">Clear High Scores</button>
+        </div>
+        </div>
+    </div>
+
+    <div id="starter-container" class="visibile">
+        <div class="container start">
+            <h1>
+                Coding Quiz
+            </h1>
+            <p>
+                Try to answer the following code-related questions within the time limit. Keep in mind the wrong answers will penalize your score/time.
+            </p>
+            <button class="btn startend" id="start-game"> Start Quiz</button>
+        </div>
+    </div>
+
+    <div id="question-container" class="hidden">
+        <div class="container questions">
+            <div id="question"></div>
+            <div id="answer-buttons" class="btn-options"></div>
+        </div>
+    </div>
+
+    <div id="end-container" class="hidden">
+        <div class="container end">
+        <div id="score-banner">
+            <h1>Finished</h1>
+        </div>
+        <form id="initials-form" class="initials">
+            <p> Enter Initials:
+            <input type="text" name="initials" class="text-input" />
+            <button class="btn startend" id="sumbit-score" type="submit">Submit Score</button></p>
+        </form>
+        </div>
+    </div>
+
+    <div class="hidden" id="correct">
+        <h2>Correct!</h2>
+    </div>
+    <div class="hidden" id="wrong">
+        <h2>Wrong</h2>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+
+    </body>
+    </html>
